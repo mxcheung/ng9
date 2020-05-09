@@ -2,6 +2,8 @@
 
 https://github.com/damienbod/angular-auth-oidc-client
 
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
@@ -62,3 +64,8 @@ AuthService add method getMessage
 
 ## install angular-auth-oidc-client
 npm install angular-auth-oidc-client
+
+https://github.com/damienbod/angular-auth-oidc-client/blob/master/docs/quickstart.md
+
+## Add 
+AuthService import angular-auth-oidc-client
