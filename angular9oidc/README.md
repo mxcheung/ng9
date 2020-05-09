@@ -28,9 +28,27 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Steps 
+
+## Install project
 ng new angular9oidc
+
+## Add login component and module
 ng generate module login
 ng generate component login
 LoginModule export LoginComponent
 AppModule import LoginModule
 App Component Html replace with selector app-login
+
+## Add login component variable
+message: String;  
+add reference {{message}}  
+
+## Add auth service
+ng generate service auth  
+LoginModule import AuthService   
+LoginModule add provider AuthService   
+LoginComponent import AuthService   
+LoginComponent add constructor AuthService  
+LoginComponent invoke AuthService  
+AuthService add method getMessage  
+
