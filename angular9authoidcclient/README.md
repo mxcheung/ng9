@@ -1,4 +1,4 @@
-# Angular9authoidcclient
+# Angular9authoidcclient damienbod angular-auth-oidc-client
 
 https://github.com/damienbod/angular-auth-oidc-client
 
@@ -59,3 +59,6 @@ LoginComponent import AuthService
 LoginComponent add constructor AuthService  
 LoginComponent invoke AuthService  
 AuthService add method getMessage  
+
+## install angular-auth-oidc-client
+npm install angular-auth-oidc-client
