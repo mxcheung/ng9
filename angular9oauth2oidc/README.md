@@ -1,4 +1,4 @@
-# Angular9oidc
+# Angular9oauth2oidc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
@@ -26,11 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
 ## Steps 
+https://github.com/manfredsteyer/angular-oauth2-oidc
 
 ## Install project
 ng new angular9oidc
+
+ng new angular9oauth2oidc
 
 ## Add login component and module
 ng generate module login
@@ -51,5 +53,3 @@ LoginComponent import AuthService
 LoginComponent add constructor AuthService  
 LoginComponent invoke AuthService  
 AuthService add method getMessage  
-
-
