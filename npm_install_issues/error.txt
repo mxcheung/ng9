@@ -2,3 +2,7 @@ https://stackoverflow.com/questions/61613797/npm-error-e401-unable-to-authentica
 
  code E401
  npm ERR! Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
+
+
+Repository configuration: Verify that your npm configuration is pointing to the correct repository URL. 
+You can do this by running npm config get registry and comparing the output with the expected repository URL.
