@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/61613797/npm-error-e401-unable-to-authenticate-need-basic-realm-sonatype-nexus-reposi
+
+ code E401
+ npm ERR! Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
