@@ -10,3 +10,6 @@ You can do this by running npm config get registry and comparing the output with
 
 × Compiling with Angular sources in Ivy full compilation mode.
 Cannot resolve type entity i8.CommonModule to symbol
+
+
+error TS2322: Type 'ModuleWithProviders<RouterModule>' is not assignable to type 'any[] | Type<any> | ModuleWithProviders<{}>'.
