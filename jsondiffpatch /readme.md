@@ -1,3 +1,6 @@
+Goal
+https://www.jsondiff.com/#google_vignette
+
 1) ngx-text-diff
 ```
 Angular CLI: 18.2.0
