@@ -2,6 +2,7 @@
 ```
 npm i ngx-text-diff --legacy-peer-deps
     "ngx-text-diff": "^0.6.0",
+     0.6.0 • Public • Published 4 years ago
 import { NgxTextDiffModule } from 'ngx-text-diff';
 ngx-text-diff.module.d.ts(1, 22): This likely means that the library (ngx-text-diff) which declares NgxTextDiffModule is not compatible with Angular Ivy.
 Check if a newer version of the library is available, and update if so.
