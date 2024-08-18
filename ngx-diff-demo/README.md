@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
+https://github.com/rars/ngx-diff
+
 ![screenshot](ngx-diff-demo-Screenshot-2024-08-18.jpg)
 
 ## Development server
