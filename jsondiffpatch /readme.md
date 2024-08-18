@@ -9,7 +9,11 @@ ngx-text-diff.module.d.ts(1, 22): This likely means that the library (ngx-text-d
 Check if a newer version of the library is available, and update if so.
 Also consider checking with the library's authors to see if the library is expected to be compatible with Ivy.
 ```
-2) 
+2)
+https://github.com/rawatanimesh/angular-json-diff-jdd
+
+
+3) 
 ```
 npm install jsondiffpatch --save
 ```
