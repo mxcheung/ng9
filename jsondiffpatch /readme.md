@@ -1,5 +1,6 @@
 1) ngx-text-diff
 ```
+Angular CLI: 18.2.0
 npm i ngx-text-diff --legacy-peer-deps
     "ngx-text-diff": "^0.6.0",
      0.6.0 • Public • Published 4 years ago
