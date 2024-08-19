@@ -1,0 +1,5 @@
+<div *ngFor="let diff of diffs">
+  <span [ngClass]="{'added': diff[0] === 1, 'removed': diff[0] === -1}">
+    {{ diff[1] }}
+  </span>
+</div>
