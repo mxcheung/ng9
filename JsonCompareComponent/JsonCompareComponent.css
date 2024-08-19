@@ -1,0 +1,28 @@
+/* Default style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Color coding */
+.added td {
+  background-color: #d4edda; /* Green */
+}
+
+.removed td {
+  background-color: #f8d7da; /* Red */
+}
+
+.modified td {
+  background-color: #fff3cd; /* Yellow */
+}
+
+.same td {
+  background-color: #d1ecf1; /* Blue for no change */
+}
