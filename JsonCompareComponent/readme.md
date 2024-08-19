@@ -1,1 +1,3 @@
 # JsonCompareComponent
+
+![screenshot](JsonCompareComponent.jpg)
