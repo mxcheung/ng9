@@ -1,0 +1,7 @@
+.added {
+  background-color: #d4ffd4; /* Light green for added text */
+}
+
+.removed {
+  background-color: #ffd4d4; /* Light red for removed text */
+}
