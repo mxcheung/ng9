@@ -1,20 +1,27 @@
-import { Component, OnInit } from '@angular/core';
-import { JsonDiffService } from './json-diff.service';
-import { Diff } from 'diff-match-patch';
+import { Injectable } from '@angular/core';
+import { DiffMatchPatch, Diff } from 'diff-match-patch';
 
-@Component({
-  selector: 'app-json-diff',
-  templateUrl: './json-diff.component.html',
-  styleUrls: ['./json-diff.component.css']
+@Injectable({
+  providedIn: 'root'
 })
-export class JsonDiffComponent implements OnInit {
-  json1 = `{"name": "John", "age": 30, "city": "New York"}`;
-  json2 = `{"name": "John", "age": 31, "city": "New York", "country": "USA"}`;
-  diffs: Diff[] = [];
+export class JsonDiffService {
+  private dmp: DiffMatchPatch;
 
-  constructor(private jsonDiffService: JsonDiffService) {}
+  constructor() {
+    this.dmp = new DiffMatchPatch();
+  }
 
-  ngOnInit(): void {
-    this.diffs = this.jsonDiffService.getJsonDiff(this.json1, this.json2);
+  getJsonDiff(json1: string, json2: string): Diff[] {
+    // Normalize the JSON strings (remove whitespace)
+    const text1 = JSON.stringify(JSON.parse(json1), null, 2);
+    const text2 = JSON.stringify(JSON.parse(json2), null, 2);
+
+    // Get the diff between the two JSON strings
+    const diffs = this.dmp.diff_main(text1, text2);
+
+    // Optionally, clean up the diff by removing small, insignificant differences
+    this.dmp.diff_cleanupSemantic(diffs);
+
+    return diffs;
   }
 }
