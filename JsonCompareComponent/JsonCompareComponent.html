@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Before</th>
+      <th>After</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of result" [ngClass]="item.status">
+      <td>{{ item.attribute }}</td>
+      <td>{{ item.before }}</td>
+      <td>{{ item.after }}</td>
+    </tr>
+  </tbody>
+</table>
